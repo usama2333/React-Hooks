@@ -7,6 +7,8 @@ import UseMemo from "./components/UseMemo";
 import UseCallbackDemo from "./components/UseCallbackDemo";
 import UseReducerDemo from "./components/UseReducerDemo";
 import UseTransition from "./components/UseTransition";
+import UseDeferredDemo from "./components/UseDeferredDemo";
+
 
 // this how to create contentex
 export const ThemeContext = createContext()
@@ -37,7 +39,8 @@ that are call inside the provider */}
       {/* <UseMemo/> */}
       {/* <UseCallbackDemo/> */}
       {/* <UseReducerDemo/> */}
-      <UseTransition/>
+      {/* <UseTransition/> */}
+      <UseDeferredDemo/>
         
       </>
   )
