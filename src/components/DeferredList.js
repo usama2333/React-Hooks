@@ -21,6 +21,7 @@ const DeferredList = ({ input }) => {
     // deferedInput :
     // then after some milliseconds delay deferedVlaue it updated and component rerendered
     const deferredInput = useDeferredValue(input);
+    // deferredInput updated after some milliseconds delay
 
     // UseDeferred makes some delay in input thats way the list is not computed on every click
     // when its completes its milliseconds times the the component rerenders as useMemo value changes
@@ -33,6 +34,7 @@ const DeferredList = ({ input }) => {
    },[deferredInput])
    
    useEffect(() => {
+    // here in console we also shows that deferredInput updated after some milliseconds delay
     console.log(`Input ${input}  \n Deferred ${deferredInput}`)
    },[input, deferredInput])
 
