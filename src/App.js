@@ -8,6 +8,7 @@ import UseCallbackDemo from "./components/UseCallbackDemo";
 import UseReducerDemo from "./components/UseReducerDemo";
 import UseTransition from "./components/UseTransition";
 import UseDeferredDemo from "./components/UseDeferredDemo";
+import UseLayoutEffectDemo from "./components/UseLayoutEffectDemo";
 
 
 // this how to create contentex
@@ -40,7 +41,8 @@ that are call inside the provider */}
       {/* <UseCallbackDemo/> */}
       {/* <UseReducerDemo/> */}
       {/* <UseTransition/> */}
-      <UseDeferredDemo/>
+      {/* <UseDeferredDemo/> */}
+      <UseLayoutEffectDemo/>
         
       </>
   )
