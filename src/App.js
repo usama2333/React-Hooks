@@ -9,6 +9,7 @@ import UseReducerDemo from "./components/UseReducerDemo";
 import UseTransition from "./components/UseTransition";
 import UseDeferredDemo from "./components/UseDeferredDemo";
 import UseLayoutEffectDemo from "./components/UseLayoutEffectDemo";
+import UseIdDemo from "./components/UseIdDemo";
 
 
 // this how to create contentex
@@ -42,7 +43,8 @@ that are call inside the provider */}
       {/* <UseReducerDemo/> */}
       {/* <UseTransition/> */}
       {/* <UseDeferredDemo/> */}
-      <UseLayoutEffectDemo/>
+      {/* <UseLayoutEffectDemo/> */}
+      <UseIdDemo/>
         
       </>
   )
