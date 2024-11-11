@@ -26,7 +26,7 @@ export default function App() {
    
   return (
       <>
-      {/* <UseStateDemo/> */}
+      <UseStateDemo/>
       {/* <UseEffectDemo/> */}
 
 {/* here provide the theme with some value that is avaliable in all child 
@@ -44,7 +44,7 @@ that are call inside the provider */}
       {/* <UseTransition/> */}
       {/* <UseDeferredDemo/> */}
       {/* <UseLayoutEffectDemo/> */}
-      <UseIdDemo/>
+      {/* <UseIdDemo/> */}
         
       </>
   )

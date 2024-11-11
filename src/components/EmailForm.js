@@ -11,22 +11,18 @@ const EmailForm = () => {
     // client side and server side
     // name lable with id will give us more secure way to differentiate which email is
 
-  return (
-    <div>
-        {/* here we can use simple id or with any name attach with */}
-        <label htmlFor={`${id}-email`}>Email</label>
-        <input id={`${id}-email`} type="email"  />
+    return (
+        <div>
+            {/* here we can use simple id or with any name attach with */}
+            <label htmlFor={`${id}-email`}>Email</label>
+            <input id={`${id}-email`} type="email" />
 
-        <br />
+            <br />
 
-        <label htmlFor={`${id}-name`}>Name</label>
-        <input id={`${id}-name`} type="email"  />
-
-
-
-      
-    </div>
-  )
+            <label htmlFor={`${id}-name`}>Name</label>
+            <input id={`${id}-name`} type="email" />
+        </div>
+    )
 }
 
 export default EmailForm
